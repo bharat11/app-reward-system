@@ -4,15 +4,15 @@
 $GLOBALS['app_url'] = 'http://midvalleymmj.com/mmjapi/sms_marketing/index.php';
 
 //Twilio API - https://www.twilio.com
-$GLOBALS['twilio_sid'] = 'ACc4b34d25d05923b276e3ac753fd96a26';
-$GLOBALS['twilio_token'] = '12a51b7a00e00839552fe78e9b747ff4';
-$GLOBALS['twilio_number'] = '15416362496';
+$GLOBALS['twilio_sid'] = '';
+$GLOBALS['twilio_token'] = '';
+$GLOBALS['twilio_number'] = '';
 
 //database access
-$GLOBALS['db_host'] = 'projectcrm.cv2t1ye7ufed.us-west-2.rds.amazonaws.com';
-$GLOBALS['db_name'] = 'projectcrm';
-$GLOBALS['db_user'] = 'admindb_main';
-$GLOBALS['db_password'] = 'woqp2910!!!';
+$GLOBALS['db_host'] = '';
+$GLOBALS['db_name'] = '';
+$GLOBALS['db_user'] = '';
+$GLOBALS['db_password'] = '';
 
 //Max number of SMS a user can send to his phone
 $GLOBALS['max_sms_per_phone'] = 10;
@@ -23,8 +23,8 @@ $GLOBALS['sms_message'] = 'You have joined Club MVC Rewards. Please use your pho
 $GLOBALS['countries_codes_allowed'] = array('USA / Canada (+1)'=>'+1');
 
 //Admin access
-$GLOBALS['admin_username'] = 'admin';
-$GLOBALS['admin_password'] = 'woqp2910!!!';
+$GLOBALS['admin_username'] = '';
+$GLOBALS['admin_password'] = '';
 
 //demo mode
 $GLOBALS['demo_mode'] = 0; //possible values: 0 or 1
